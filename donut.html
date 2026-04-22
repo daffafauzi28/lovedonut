@@ -1,0 +1,467 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Love Donut — Love Taste, Love Price & Healthy</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700;900&family=DM+Sans:wght@300;400;500&family=Pacifico&display=swap" rel="stylesheet" />
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <!-- ===== CUSTOM CURSOR ===== -->
+  <div class="cursor" id="cursor"></div>
+  <div class="cursor-ring" id="cursorRing"></div>
+
+  <!-- ===== NAVBAR ===== -->
+  <nav>
+    <a href="#" class="nav-logo">Love<span>Donut</span></a>
+    <ul class="nav-links">
+      <li><a href="#hero">Beranda</a></li>
+      <li><a href="#produk">Menu</a></li>
+      <li><a href="#tentang">Tentang</a></li>
+      <li><a href="#testimoni">Review</a></li>
+      <li><a href="#order" class="nav-cta">Pesan Sekarang</a></li>
+    </ul>
+  </nav>
+
+  <!-- ===== HERO ===== -->
+  <section class="hero" id="hero">
+    <div class="hero-bg"></div>
+
+    <!-- Floating Sprinkles -->
+    <div class="sprinkle" style="width:10px;height:26px;background:#7C3AED;left:8%;top:80%;animation-duration:7s;animation-delay:0s;transform:rotate(30deg)"></div>
+    <div class="sprinkle" style="width:8px;height:20px;background:#FFD166;left:15%;top:90%;animation-duration:9s;animation-delay:1s;transform:rotate(-20deg)"></div>
+    <div class="sprinkle" style="width:10px;height:24px;background:#A855F7;left:5%;top:70%;animation-duration:8s;animation-delay:3s;transform:rotate(60deg)"></div>
+    <div class="sprinkle" style="width:8px;height:18px;background:#C084FC;left:88%;top:85%;animation-duration:6s;animation-delay:.5s;transform:rotate(-45deg)"></div>
+    <div class="sprinkle" style="width:10px;height:22px;background:#FFD166;left:92%;top:75%;animation-duration:10s;animation-delay:2s;transform:rotate(15deg)"></div>
+
+    <!-- Hero Text -->
+    <div class="hero-text">
+      <span class="hero-badge">🍩 Fresh Every Day</span>
+      <h1> <em>Love Taste, Love Price & Healthy </em><br/> </h1>
+      <p class="hero-sub">Nikmati donut premium buatan tangan dengan berbagai varian rasa unik. Dibuat segar setiap hari dengan bahan-bahan pilihan terbaik untuk setiap gigitan yang membahagiakan.</p>
+      <div class="hero-btns">
+        <a href="#produk" class="btn-primary">🍩 Lihat Menu</a>
+        <a href="#order" class="btn-ghost">Pesan Sekarang</a>
+      </div>
+      <div class="hero-stats">
+        <div>
+          <div class="stat-num">10</div>
+          <div class="stat-label">Varian Rasa</div>
+        </div>
+        <div>
+          <div class="stat-num">4.9★</div>
+          <div class="stat-label">Rating Pelanggan</div>
+        </div>
+        <div>
+          <div class="stat-num">2K+</div>
+          <div class="stat-label">Pelanggan Setia</div>
+        </div>
+      </div>
+    </div>
+
+    <!-- Hero Donut Visual -->
+    <div class="hero-visual">
+      <div class="donut-ring">
+        <div class="donut-hole">
+          <div class="donut-hole-text">Love<br/>Donut</div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ===== MARQUEE STRIP ===== -->
+  <div class="marquee-wrap">
+    <div class="marquee-track">
+      <span>🍩 Cappucino</span><span class="dot">✦</span>
+      <span>🍫 Coklat Kacang</span><span class="dot">✦</span>
+      <span>🍓 Strawberry</span><span class="dot">✦</span>
+      <span>🍋 Blueberry</span><span class="dot">✦</span>
+      <span>🥜 Cheese</span><span class="dot">✦</span>
+      <span>🌈 Coklat Messes</span><span class="dot">✦</span>
+      <span>☕ Avocado</span><span class="dot">✦</span>
+      <span>🍮 Coklat Lumer</span><span class="dot">✦</span>
+      <!-- Duplicate for seamless loop -->
+      <span>🍩 Cappucino</span><span class="dot">✦</span>
+      <span>🍫 Coklat Kacang</span><span class="dot">✦</span>
+      <span>🍓 Strawberry</span><span class="dot">✦</span>
+      <span>🍋 Blueberry</span><span class="dot">✦</span>
+      <span>🥜 Cheese</span><span class="dot">✦</span>
+      <span>🌈 Coklat Messes</span><span class="dot">✦</span>
+      <span>☕ Avocado</span><span class="dot">✦</span>
+      <span>🍮 Coklat Lumer</span><span class="dot">✦</span>
+    </div>
+  </div>
+
+  <!-- ===== PRODUCTS ===== -->
+  <section id="produk">
+    <div class="products-header reveal">
+      <span class="section-tag">Menu Spesial</span>
+      <h2 class="section-title">Pilihan Donut Terbaik Kami</h2>
+      <p class="section-sub">Setiap donut dibuat dengan penuh cinta menggunakan resep rahasia dan bahan premium pilihan.</p>
+    </div>
+
+    <div class="products-filter reveal">
+      <button class="filter-btn active">Semua</button>
+      <button class="filter-btn">Classic</button>
+      <button class="filter-btn">Premium</button>
+      <button class="filter-btn">Seasonal</button>
+      <button class="filter-btn">Vegan</button>
+    </div>
+
+    <div class="products-grid">
+
+      <!-- Card 1 -->
+      <div class="product-card reveal">
+        <div class="product-img-wrap">
+          <div class="product-badge">Terlaris</div>
+          <span class="product-emoji">🍩</span>
+        </div>
+        <div class="product-info">
+          <div class="product-name">Cappucino</div>
+          <div class="product-desc">Donut klasik dengan glazing vanilla lembut, renyah di luar dan fluffy di dalam.</div>
+          <div class="product-footer">
+            <div class="product-price">Rp 2.500</div>
+            <button class="add-btn">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 2 -->
+      <div class="product-card reveal">
+        <div class="product-img-wrap" style="background: linear-gradient(135deg, #3D1A6B, #6B20A0);">
+          <div class="product-badge" style="background:#A855F7;color:#fff;">Premium</div>
+          <span class="product-emoji">🍫</span>
+        </div>
+        <div class="product-info">
+          <div class="product-name">Double Choco Fudge</div>
+          <div class="product-desc">Donut coklat belga double decker dengan taburan choco chips premium di atasnya.</div>
+          <div class="product-footer">
+            <div class="product-price">Rp 2.500</div>
+            <button class="add-btn">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 3 -->
+      <div class="product-card reveal">
+        <div class="product-img-wrap" style="background: linear-gradient(135deg, #EDE9FE, #C4B5FD);">
+          <span class="product-emoji">🍓</span>
+        </div>
+        <div class="product-info">
+          <div class="product-name">Strawberry Dream</div>
+          <div class="product-desc">Frosting stroberi segar dengan potongan buah asli dan taburan sprinkle warna-warni.</div>
+          <div class="product-footer">
+            <div class="product-price">Rp 2.500</div>
+            <button class="add-btn">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 4 -->
+      <div class="product-card reveal">
+        <div class="product-img-wrap" style="background: linear-gradient(135deg, #E8FFE0, #B8F0A0);">
+          <div class="product-badge" style="background:#2D6A4F;color:#fff;">New</div>
+          <span class="product-emoji">🍵</span>
+        </div>
+        <div class="product-info">
+          <div class="product-name">Matcha Obsession</div>
+          <div class="product-desc">Frosting matcha Uji Jepang autentik dengan white chocolate drizzle yang menggugah selera.</div>
+          <div class="product-footer">
+            <div class="product-price">Rp 2.500</div>
+            <button class="add-btn">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 5 -->
+      <div class="product-card reveal">
+        <div class="product-img-wrap" style="background: linear-gradient(135deg, #FFF8DC, #FFE878);">
+          <span class="product-emoji">🍋</span>
+        </div>
+        <div class="product-info">
+          <div class="product-name">Lemon Zest Bliss</div>
+          <div class="product-desc">Donut segar dengan frosting lemon yuzu dan taburan zest lemon harum yang menyegarkan.</div>
+          <div class="product-footer">
+            <div class="product-price">Rp 2.500</div>
+            <button class="add-btn">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 6 -->
+      <div class="product-card reveal">
+        <div class="product-img-wrap" style="background: linear-gradient(135deg, #F3E8FF, #E9D5FF);">
+          <div class="product-badge">Favorit</div>
+          <span class="product-emoji">🍮</span>
+        </div>
+        <div class="product-info">
+          <div class="product-name">Caramel Royale</div>
+          <div class="product-desc">Donut berlapis karamel salted butter premium dengan taburan gula kristal yang karamelisasi sempurna.</div>
+          <div class="product-footer">
+            <div class="product-price">Rp 2.500</div>
+            <button class="add-btn">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 7 -->
+      <div class="product-card reveal">
+        <div class="product-img-wrap" style="background: linear-gradient(135deg, #F3E8FF, #E9D5FF);">
+          <div class="product-badge">Favorit</div>
+          <span class="product-emoji">🍮</span>
+        </div>
+        <div class="product-info">
+          <div class="product-name">Caramel Royale</div>
+          <div class="product-desc">Donut berlapis karamel salted butter premium dengan taburan gula kristal yang karamelisasi sempurna.</div>
+          <div class="product-footer">
+            <div class="product-price">Rp 2.500</div>
+            <button class="add-btn">+</button>
+          </div>
+        </div>
+      </div>
+
+      <!-- Card 8 -->
+      <div class="product-card reveal">
+        <div class="product-img-wrap" style="background: linear-gradient(135deg, #F3E8FF, #E9D5FF);">
+          <div class="product-badge">Favorit</div>
+          <span class="product-emoji">🍮</span>
+        </div>
+        <div class="product-info">
+          <div class="product-name">Caramel Royale</div>
+          <div class="product-desc">Donut berlapis karamel salted butter premium dengan taburan gula kristal yang karamelisasi sempurna.</div>
+          <div class="product-footer">
+            <div class="product-price">Rp 2.500</div>
+            <button class="add-btn">+</button>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== WHY US ===== -->
+  <section id="tentang">
+    <div class="why-grid">
+
+      <!-- Cards Grid -->
+      <div class="why-visual reveal">
+        <div class="why-card">
+          <span class="why-icon">🌾</span>
+          <div class="why-card-title">Bahan Premium</div>
+          <div class="why-card-text">Tepung terigu protein tinggi khusus untuk tekstur sempurna</div>
+        </div>
+        <div class="why-card">
+          <span class="why-icon">👨‍🍳</span>
+          <div class="why-card-title">Chef Berpengalaman</div>
+          <div class="why-card-text">Tim pastry chef profesional dengan pengalaman 10+ tahun</div>
+        </div>
+        <div class="why-card">
+          <span class="why-icon">🌅</span>
+          <div class="why-card-title">Fresh Every Morning</div>
+          <div class="why-card-text">Dipanggang segar setiap hari mulai pukul 05.00 pagi</div>
+        </div>
+        <div class="why-card">
+          <span class="why-icon">🛵</span>
+          <div class="why-card-title">Antar ke Rumah</div>
+          <div class="why-card-text">Layanan pengiriman cepat ke seluruh penjuru kota</div>
+        </div>
+      </div>
+
+      <!-- Text Content -->
+      <div class="reveal">
+        <span class="section-tag">Mengapa Kami?</span>
+        <h2 class="section-title">Dibuat dengan Hati, Dinikmati dengan Bahagia</h2>
+        <p class="section-sub">Love Donut hadir dengan misi sederhana: menghadirkan kebahagiaan lewat setiap gigitan donut yang kami buat dengan penuh cinta.</p>
+        <div class="why-list">
+          <div class="why-item">
+            <div class="why-check">✓</div>
+            <div class="why-item-text">Tanpa pengawet buatan — semua natural dan segar langsung dari dapur kami</div>
+          </div>
+          <div class="why-item">
+            <div class="why-check">✓</div>
+            <div class="why-item-text">Tersertifikasi halal MUI untuk ketenangan pikiran Anda dan keluarga</div>
+          </div>
+          <div class="why-item">
+            <div class="why-check">✓</div>
+            <div class="why-item-text">Kemasan ramah lingkungan dari bahan daur ulang yang cantik dan estetis</div>
+          </div>
+          <div class="why-item">
+            <div class="why-check">✓</div>
+            <div class="why-item-text">Tersedia paket custom untuk acara ulang tahun, pernikahan, dan korporat</div>
+          </div>
+        </div>
+        <a href="#order" class="btn-yellow">Pelajari Lebih Lanjut →</a>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== TESTIMONIALS ===== -->
+  <section id="testimoni">
+    <div class="testi-header reveal">
+      <span class="section-tag">Testimoni</span>
+      <h2 class="section-title">Kata Mereka tentang Love Donut</h2>
+      <p class="section-sub" style="margin:0 auto;">Ribuan pelanggan setia sudah membuktikan kelezatan donut kami. Yuk, bergabung bersama mereka!</p>
+    </div>
+
+    <div class="testi-grid">
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Donutnya lembut banget dan tidak terlalu manis! Glazing-nya meresap sempurna. Sudah coba hampir semua varian dan semuanya enak. Favorit saya Matcha Obsession!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">A</div>
+          <div>
+            <div class="testi-name">Anisa Rahma</div>
+            <div class="testi-role">Food Blogger Jakarta</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Pesan buat ulang tahun anak, hasilnya luar biasa! Custom box-nya cantik dan donutnya fresh banget waktu sampai. Pasti order lagi buat event berikutnya!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">B</div>
+          <div>
+            <div class="testi-name">Budi Santoso</div>
+            <div class="testi-role">Pelanggan Setia</div>
+          </div>
+        </div>
+      </div>
+
+      <div class="testi-card reveal">
+        <div class="testi-stars">★★★★★</div>
+        <p class="testi-text">"Double Choco Fudge-nya bikin nagih! Cokelatnya rich banget, tidak keras, dan chips-nya banyak. Pengiriman cepat dan kemasannya super rapi. 10/10 recommended!"</p>
+        <div class="testi-author">
+          <div class="testi-avatar">C</div>
+          <div>
+            <div class="testi-name">Citra Dewi</div>
+            <div class="testi-role">Barista & Coffee Lover</div>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ===== CTA BANNER ===== -->
+  <div class="cta-banner" id="order">
+    <h2>Siap Merasakan Kelezatannya?</h2>
+    <p>Pesan sekarang dan nikmati gratis ongkir untuk pembelian pertama Anda. Promo berlaku hari ini saja!</p>
+    <a href="https://wa.me/6289519275738" class="btn-white">💬 Pesan via WhatsApp</a>
+  </div>
+
+  <!-- ===== FOOTER ===== -->
+  <footer>
+    <div class="footer-grid">
+
+      <div>
+        <a href="#" class="footer-logo">LoveDonut</a>
+        <p class="footer-desc">Donut premium buatan tangan dengan cinta untuk setiap pelanggan setia kami. Dibuat segar, diantar dengan senyum.</p>
+        <div class="social-links">
+          <a href="#" class="social-link">f</a>
+          <a href="#" class="social-link">✕</a>
+          <a href="#" class="social-link">in</a>
+          <a href="#" class="social-link">▶</a>
+        </div>
+      </div>
+
+      <div class="footer-col">
+        <h4>Menu</h4>
+        <ul>
+          <li><a href="#">Classic Donuts</a></li>
+          <li><a href="#">Premium Series</a></li>
+          <li><a href="#">Seasonal Flavors</a></li>
+          <li><a href="#">Vegan Options</a></li>
+          <li><a href="#">Custom Orders</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Informasi</h4>
+        <ul>
+          <li><a href="#">Tentang Kami</a></li>
+          <li><a href="#">Cara Pemesanan</a></li>
+          <li><a href="#">Kebijakan Pengembalian</a></li>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Karir</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Kontak</h4>
+        <ul>
+          <li><a href="#">📍 Sukabakti, Kec. Curug, Kabupaten Tangerang, Banten 15810</a></li>
+          <li><a href="#">📞 0895-1927-5738</a></li>
+          <li><a href="#">✉️ hello@lovedonut.id</a></li>
+          <li><a href="#">🕐 Buka 09.00 – 20.30</a></li>
+        </ul>
+      </div>
+
+    </div>
+    <div class="footer-bottom">
+      © 2025 Love Donut. Dibuat dengan 🍩 & ❤️ di Tangerang, Indonesia.
+    </div>
+  </footer>
+
+  <!-- ===== JAVASCRIPT ===== -->
+  <script>
+    // ---- Custom Cursor ----
+    var cursor     = document.getElementById('cursor');
+    var cursorRing = document.getElementById('cursorRing');
+
+    document.addEventListener('mousemove', function(e) {
+      cursor.style.left      = e.clientX + 'px';
+      cursor.style.top       = e.clientY + 'px';
+      cursorRing.style.left  = e.clientX + 'px';
+      cursorRing.style.top   = e.clientY + 'px';
+    });
+
+    // ---- Filter Buttons ----
+    var filterBtns = document.querySelectorAll('.filter-btn');
+    filterBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        filterBtns.forEach(function(b) { b.classList.remove('active'); });
+        btn.classList.add('active');
+      });
+    });
+
+    // ---- Add to Cart Feedback ----
+    var addBtns = document.querySelectorAll('.add-btn');
+    addBtns.forEach(function(btn) {
+      btn.addEventListener('click', function() {
+        this.textContent      = '✓';
+        this.style.background = '#2D6A4F';
+        var self = this;
+        setTimeout(function() {
+          self.textContent      = '+';
+          self.style.background = '';
+        }, 1200);
+      });
+    });
+
+    // ---- Scroll Reveal ----
+    var reveals  = document.querySelectorAll('.reveal');
+    var observer = new IntersectionObserver(function(entries) {
+      entries.forEach(function(entry, i) {
+        if (entry.isIntersecting) {
+          setTimeout(function() {
+            entry.target.classList.add('visible');
+          }, i * 80);
+          observer.unobserve(entry.target);
+        }
+      });
+    }, { threshold: 0.12 });
+
+    reveals.forEach(function(el) { observer.observe(el); });
+  </script>
+
+</body>
+</html>
